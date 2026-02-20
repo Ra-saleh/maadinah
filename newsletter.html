@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>الرسالة الإخبارية | المدينة المنورة</title>
+  <meta name="description" content="رسالة إخبارية رقمية عن المدينة المنورة تتضمن خبر اليوم ومشاريع تنموية وفعالية وطنية، بتصميم متجاوب وتفاعل بسيط." />
+
+  <link rel="stylesheet" href="newsletter.css" />
+</head>
+<body>
+
+  <!-- رأس الرسالة -->
+  <header class="header">
+    <div class="wrap">
+      <h1 class="title">أخبار مدينة المدينة المنورة</h1>
+      <p class="subtitle">رسالة إخبارية رقمية أسبوعية تعكس هوية المدينة وطابعها الوطني</p>
+
+      <!-- عنصر تفاعلي: زر اشتراك (يظهر رسالة) -->
+      <button class="btn" id="subscribeBtn">اشتركي في الرسالة</button>
+      <p class="toast" id="toast" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- فقرة ترحيبية قصيرة -->
+    <section class="card">
+      <h2>مرحباً بك</h2>
+      <p>
+        نرحب بك في رسالتنا الإخبارية الرقمية عن <strong>المدينة المنورة</strong>.
+        هنا ستجدين أهم الأخبار والفعاليات والمبادرات التنموية التي تعكس جمال المدينة وروحها الوطنية.
+      </p>
+    </section>
+
+    <!-- خبر رئيسي + صورة -->
+    <section class="grid">
+      <section class="card main-news">
+        <h2>خبر اليوم</h2>
+        <h3 class="news-title">تحسين الممرات والخدمات لزوار المسجد النبوي</h3>
+        <p class="news-text">
+          تعمل الجهات المعنية على تطوير الممرات والخدمات المحيطة بالمنطقة المركزية،
+          بهدف تسهيل الحركة ورفع جودة التجربة للزوار، ضمن جهود مستمرة لتطوير الخدمات.
+        </p>
+
+        <!-- عنصر تفاعلي: رابط -->
+        <a class="link" href="#brief-table">شاهدي ملخص الأخبار</a>
+      </section>
+
+      <section class="card image-card">
+        <h2>صورة من المدينة</h2>
+        <!-- استخدمي صورتك المحلية أو رابط -->
+        <img class="city-img" src="images/جبل أحد.jpg" alt="معلم من معالم المدينة المنورة">
+        <p class="img-caption">معلم: جبل أُحد - المدينة المنورة</p>
+      </section>
+    </section>
+
+    <!-- تنظيم المحتوى: أقسام واضحة -->
+    <section class="grid">
+      <section class="card">
+        <h2>مشروع تنموي</h2>
+        <p>
+          مبادرات تطوير المساحات العامة وتحسين المرافق والخدمات تسهم في رفع جودة الحياة،
+          وتعكس رؤية تنموية تهتم براحة السكان والزوار.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>فعالية وطنية</h2>
+        <p>
+          بمناسبة <strong>يوم التأسيس</strong>، نحتفي بجذور المملكة وهويتها الأصيلة،
+          ونستذكر تاريخاً ممتداً يبعث الفخر والانتماء.
+        </p>
+      </section>
+    </section>
+
+    <!-- تنظيم المحتوى داخل جدول -->
+    <section class="card" id="brief-table">
+      <h2>ملخص الأخبار</h2>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>عنوان الخبر</th>
+              <th>وصف مختصر</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>تحسين الخدمات للزوار</td>
+              <td>تطوير الممرات والمرافق حول المنطقة المركزية.</td>
+            </tr>
+            <tr>
+              <td>تطوير المساحات العامة</td>
+              <td>رفع جودة الحياة وتحسين المرافق والحدائق.</td>
+            </tr>
+            <tr>
+              <td>فعالية يوم التأسيس</td>
+              <td>إبراز الهوية الوطنية والاعتزاز بتاريخ المملكة.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- تذييل: اسم الطالبة / المجموعة -->
+  <footer class="footer">
+    <div class="wrap">
+      <p>اسم الطالبة: <span class="placeholder">رهف أحمد صالح</span></p>
+      <p>اسم المجموعة: <span class="placeholder">النجوم</span></p>
+    </div>
+  </footer>
+
+  <script src="newsletter.js"></script>
+</body>
+</html>
